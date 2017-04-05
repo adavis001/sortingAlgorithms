@@ -12,17 +12,15 @@ function quickSort(arr){
 		return arr;
 	}
 
-	for(var i = 0; i<arr.length; i++){
+	for(var i = 1; i<arr.length; i++){
 		if(typeof arr[i] !== "number"){
 			return false;
 		}
-		if(arr[i] > pivot){
+		if(arr[i] >= pivot){
 			rightArr.push(arr[i]);
-			sorted = true;
 		}
 		if(arr[i] < pivot){
 			leftArr.push(arr[i]);
-			sorted = true;
 		}
 
 	}
