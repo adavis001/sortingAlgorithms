@@ -8,6 +8,7 @@ const quickSort = require('../quickSort.js');
 var smallArr = [3,4,7,1];
 var largeArr = [42,69,7,13,255, 2, 9000];
 var fakeArr = 42;
+var mixedArr = [17,"18",19];
 
 describe('quickSort', ()=> {
 	it('should be a function', function(){
@@ -21,6 +22,9 @@ describe('quickSort', ()=> {
 	});
 	it('should return false if arr is not an array', function(){
 		expect(quickSort(fakeArr)).to.be.equal(false);
+	});
+	it('should return false if an index is not a number', function(){
+		expect(quickSort(mixedArr)).to.be.equal(false);
 	});
 
 
