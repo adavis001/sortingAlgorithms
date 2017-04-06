@@ -4,7 +4,7 @@ function selectionSort(arr){
 
 	var newArr = [];
 	var smallest = arr[0];
-	var index = null;
+	var index = 0;
 
 	if(Array.isArray(arr) === false){
 		return false;
@@ -24,11 +24,8 @@ function selectionSort(arr){
 		newArr.push(smallest);
 		smallest = arr[0];
 		index = null;
+		console.log(arr);
 	}
-	if(arr.length === 1){
-		newArr.push(arr[0]);
-	}
-
 	return newArr;
 }
 
