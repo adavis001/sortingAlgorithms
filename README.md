@@ -1,6 +1,6 @@
-#Sorting Algorithms:
+#Sorting Algorithms:#
 
-###***Bubble Sort:***  
+###***Bubble Sort:***###
 Bubble sorting is a sorting methods that looks at the first and second enteries of an array and puts those two in numerical order.  Then the algorithm looks at the first and second enteries, then the second and third and the third and fourth and so on until you reach the end of the array.  Then the algorithm repeats itself and compares the entries to each other once again in the same way.  The bubble algorithm will repeat this process until it goes through the entire array without having to reorder any of the entries.  That is when the algorithm knows that the array has been successfully sorted and will return to you the sorted array.
 
 Bubble sort's worst case scenario would when it encounters a reversed array, meaning that the array is arranged from highest value to lowest.  This would mean that first index of the array would have to be swapped over and over again until it reached the end.  Then the new starting index of the array would undertake a similar journey to the second to the last position in the array.  This would be repeated until the array was sorted.
