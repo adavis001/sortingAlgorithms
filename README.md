@@ -7,10 +7,12 @@ Bubble sorting is a sorting methods that looks at the first and second enteries 
 Bubble sort's worst case scenario would when it encounters a reversed array, meaning that the array is arranged from highest value to lowest.  This would mean that first index of the array would have to be swapped over and over again until it reached the end.  Then the new starting index of the array would undertake a similar journey to the second to the last position in the array.  This would be repeated until the array was sorted.  Best case scenario for bubble sort would be if it encounters an array that is already sorted.  The algorithm will pass through the entire array without swapping anything and return back to you the assorted list.
 
 **TLDR:**
-Best Case |Average Case | Worst Case
------|-----|-----
-O(n)| O(n^2) | O(n^2)
-
+|____                         |____             |
+|-----------------------------|-----------------|
+|Algorithm                    |Bubble Sort      |
+|Best Case Scenario           | O(N)            |
+|Worst case performance       | O(n^2)          |
+|Worst case space complexity  | O(n^2           |
 
 	Psudocode is as follows (brought to you by Wikipedia)
 		procedure bubbleSort( A : list of sortable items )
