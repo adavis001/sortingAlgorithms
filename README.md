@@ -8,9 +8,9 @@ Bubble sort's worst case scenario would when it encounters a reversed array, mea
 
 **TLDR:**
 
-Best Case Scenario            O(N)            
-Worst case performance        O(n^2)          
-Worst case space complexity   O(n^2           
+Best Case Scenario            Ω(n)            
+Worst case performance        Θ(n^2)          
+Worst case space complexity   O(1)          
 
 	Psudocode is as follows (brought to you by Wikipedia)
 		procedure bubbleSort( A : list of sortable items )
@@ -38,9 +38,9 @@ The worst case scenario for quicksort would be when the splitting of each array 
 
 **TLDR:**
 
-Best Case Scenario            O(N)            
-Worst case performance        O(n^2)          
-Worst case space complexity   O(n^2  
+Best Case Scenario            Ω(n log(n))            
+Worst case performance        O(n^2)         
+Worst case space complexity   O(log(n))
 
 	Psodocode provided by Wikipedia:
 	algorithm quicksort(A, lo, hi) is
@@ -67,9 +67,9 @@ Selection sort finds the smallest value in a given array and removes it from the
 
 **TLDR:**
 
-Best Case Scenario            O(N)            
+Best Case Scenario            O(n^2)            
 Worst case performance        O(n^2)          
-Worst case space complexity   O(n^2 
+Worst case space complexity   O(1) 
 
 
 
