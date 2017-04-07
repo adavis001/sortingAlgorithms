@@ -8,8 +8,6 @@ Bubble sort's worst case scenario would when it encounters a reversed array, mea
 
 **TLDR:**
 
-
-Algorithm                     Bubble Sort      
 Best Case Scenario            O(N)            
 Worst case performance        O(n^2)          
 Worst case space complexity   O(n^2           
@@ -38,6 +36,12 @@ The best case scenario for the quick sort algorithm is every "split" creates two
 
 The worst case scenario for quicksort would be when the splitting of each array creates one empty array on one side and the rest of the numbers on the other.  Meaning if the largest of smallest number in the array happens to be the pivot point, then the array would be split into one blank array, and another full of the remainding values.  This would slow down the splitting process and create more work for the algorithm.
 
+**TLDR:**
+
+Best Case Scenario            O(N)            
+Worst case performance        O(n^2)          
+Worst case space complexity   O(n^2  
+
 	Psodocode provided by Wikipedia:
 	algorithm quicksort(A, lo, hi) is
     if lo < hi then
@@ -55,9 +59,17 @@ The worst case scenario for quicksort would be when the splitting of each array 
     swap A[i+1] with A[hi]
     return i + 1
 
-### Selection Sort  
+### Selection Sort
+
+
 
 Selection sort finds the smallest value in a given array and removes it from the given array into a new empty array.  It then repeats this process, finding the new lowest number for the given array and relocating it to the end of the new array.  This process is repeated until the original array is empty and the new array contains the sorted contents of the original array.
+
+**TLDR:**
+
+Best Case Scenario            O(N)            
+Worst case performance        O(n^2)          
+Worst case space complexity   O(n^2 
 
 
 
