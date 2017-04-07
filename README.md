@@ -8,7 +8,7 @@ Bubble sort's worst case scenario would when it encounters a reversed array, mea
 
 **TLDR:**
 Best Case |Average Case | Worst Case
------| ----- | -----
+-----|-----|-----
 O(n)| O(n^2) | O(n^2)
 
 
